@@ -1,0 +1,22 @@
+{
+  "name": "data_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "DATABASE_URL=postgres://user:password@:/db nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pg": "^8.5.1",
+    "sequelize": "^6.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
